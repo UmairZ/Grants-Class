@@ -1,27 +1,241 @@
+/** Gets rid of all margins and paddings **/
 *{
 	margin: 0px;
 	padding: 0px;
 }
 
-body{
-    background-image: url("images/bg_home_street.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/** Navigation starts here **/
 
-.boxcontainer{
-    
-}
-
-.box{
-    opacity: 0.4;
-    height: 100%;
+/** Creates background for nav bar **/
+/**
+header{
     width: 100%;
-    background-image: url("images/bg.jpg");
+    background-color: #333333;
 }
 
-.center{
-    font-family: 'Roboto', sans-serif;
+/** Creates nav bar **/
+/**
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+    width: 420px;
+    margin: auto;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
     text-align: center;
-    
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 20px;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+**/
+
+.about{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 20px;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 150px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.about:hover{
+    background-color: #222222;
+}
+
+.topcenter{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.contact{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 20px;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    letter-spacing: 5px;
+    position: fixed;
+    top: 45%;
+    right: -30px;
+}
+
+.contact:hover{
+    background-color: #222222;
+}
+
+.photos{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 20px;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    letter-spacing: 5px;
+    position: fixed;
+    top: 45%;
+    left: -30px;
+}
+
+.photos:hover{
+    background-color: #222222;
+}
+
+.bottomcenter{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.portfolio{
+    text-align: center;
+    display: block;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 20px;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: letter-spacing 0.1s;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.portfolio:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098d1;
+  transform: scale(0);
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.portfolio:hover, .portfolio:focus, .portfolio:active {
+  color: white;
+}
+.portfolio:hover:before, .portfolio:focus:before, .portfolio:active:before {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/** Background for content **/
+body{
+    background-image: url("images/Background.jpg")
+}
+
+/** Background Bars **/
+.topbar{
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+.bottombar{
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.leftbar{
+    width: 100px;
+    height: 100%;
+    background-color: #333333;
+    position: fixed;
+    left: 0px;
+    z-index: -1;
+}
+
+.rightbar{
+    width: 100px;
+    height: 100%;
+    background-color: #333333;
+    position: fixed;
+    right: 0px;
+    z-index: -1;
+}
+
+.bar{
+    opacity: 0.6;
+}
+
+/** Name editiing **/   
+.positioning{
+    position: absolute;
+    top: 30%;
+    left: 300px;
+}
+
+/** Umair **/
+.formatting1{
+    font-size: 8em;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+/** Zaidi **/
+.formatting2{
+    font-size: 8em;
+    color: #00CCFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+/** Designer Student **/
+.formatting3{
+    font-size: 5em;
+    color: #888888;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+/** Mah Face **/
+.rightcenter{
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    height: 85%;
+    width: 35%;
 }
