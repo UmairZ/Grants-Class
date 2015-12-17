@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.heading1{
+	background-image: url("images/headerback.jpg");
+	position: fixed;
+	width: 100%;
+	height: 28px;
+	opacity: 0.9;
+}
+
+.heading2{
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	color: #CD1F25;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 800;
+	position: fixed;
+	top: 28px;
+	width: 100%;
+}
+
+.heading3{
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	color: #CD1F25;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 600;
+	position: fixed;
+	top: 93px;
+	width: 100%;
+}
+
+.push{
+	height: 158px;
+}
+
+.MenuHeading{
+	font-family: 'Open Sans', sans-serif;
+	color: #CD1F25;
+	text-align: left;
+	font-size: 3em;
+	font-weight: 700;
+	margin-left: 200px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.NutHeading{
+	font-family: 'Open Sans', sans-serif;
+	color: #CD1F25;
+	text-align: left;
+	font-size: 3em;
+	font-weight: 700;
+}
+
+.aboutheading{
+	font-family: 'Open Sans', sans-serif;
+	color: #CD1F25;
+	text-align: left;
+	font-size: 3em;
+	font-weight: 700;
+	margin-left: 200px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.aboutparagraph{
+	font-family: 'Open Sans', sans-serif;
+	color: #848484;
+	text-align: left;
+	font-size: 1em;
+	font-weight: 400;
+	margin-left: 200px;
+}
+
+.listheading{
+	font-family: 'Open Sans', sans-serif;
+	color: #CD1F25;
+	text-align: left;
+	font-size: 2em;
+	font-weight: 600;
+	list-style-type: none;
+}
+
+.menuitem{
+	font-family: 'Open Sans', sans-serif;
+	color: #848484;
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: 400;
+	list-style-type: none;
+}
+
+.burgers{
+	margin-left: 200px;
+	float: left;
+}
+
+.sandwiches{
+	margin-right: 200px;
+	float: right;
+}
+
+.toppings{
+	margin-right: 150px;
+	float: right;
+	border: #CD1F25 5px solid;
+}
+
+.first{
+	margin-top: 70px;
+	margin-right: 150px;
+	margin-left: 50px;
+	float: right;
+	border: #CD1F25 5px solid;
+}
+
+.dogs{
+	margin-top: 40px;
+	margin-left: 200px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.fries{
+	margin-top: 40px;
+	margin-right: 500px;
+	float: right;
+}
+
+.sandwichitem{
+	font-family: 'Open Sans', sans-serif;
+	color: #848484;
+	text-align: left;
+	font-size: 1em;
+	font-weight: 400;
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+.press{
+	margin-left: 200px;
+	margin-right: 10px;
+	float: left;
+	border: #CD1F25 5px solid;
+}
+
+img{
+	opacity: 0.9;
+	border-radius: 8px;
+}
