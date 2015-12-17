@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #FF0000;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	position: fixed;
+}

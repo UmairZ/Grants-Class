@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	pading: 0;
+}
+
+#navi ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+	margin: auto;
+	width: 760px;
+}
+
+#navi li{
+    float: left;
+}
+
+#navi a:link, #navi a:visited {
+    display: block;
+    width: 120px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 4px;
+    text-decoration: none;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	border-bottom: 1px solid #000000;
+}
+
+#navi a:hover, #navi a:active {
+	color: #0489B1;
+	border-bottom: 1px solid #0489B1;
+	font-size: 21px;
+}
+
+.alignLeft{
+	text-align: left;
+	margin-right: 20px;
+}
+
+.alignRight{
+	text-align: right;
+	margin-left: 20px;
+}
+
+.margintop{
+	margin-top: 60px;
+}

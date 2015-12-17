@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+    background-image: url("images/bg_home_street.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxcontainer{
+    
+}
+
+.box{
+    opacity: 0.4;
+    height: 100%;
+    width: 100%;
+    background-image: url("images/bg.jpg");
+}
+
+.center{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}

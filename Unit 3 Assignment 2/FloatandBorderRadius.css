@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-image: url("images/background.jpg");
+}
+
+.floatright{
+	float: right;
+	border: solid #C19A6B 3px;
+	margin: 10px;
+}
+
+.floatleft{
+	float: left;
+	border: solid #C19A6B 3px;
+	margin: 10px;
+}
+
+.center{
+	text-align: center;
+	font-size: 4em;
+	background-color: #C19A6B;
+}
+
+.readable{
+	margin: 10px;
+	margin-right: 323px;
+	margin-left: 323px;
+	font-size: 2em;
+	background-color: #C19A6B;
+}
+
+.readable ul{
+	list-style-type: none;
+}
+
+img{
+	border-radius: 10px;
+}
