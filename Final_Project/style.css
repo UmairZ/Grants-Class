@@ -96,11 +96,11 @@ li a:hover {
     padding: 20px;
     font-family: Lato, sans-serif;
     text-transform: uppercase;
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     letter-spacing: 5px;
     position: fixed;
     top: 45%;
-    left: -30px;
+    left: -20px;
 }
 
 .photos:hover{
@@ -127,31 +127,11 @@ li a:hover {
     letter-spacing: 5px;
     margin: auto;
     margin-bottom: 30px;
-    transition: letter-spacing 0.1s;
-    transition-property: color;
-    transition-duration: 0.3s;
+    width: 170px;
 }
 
-.portfolio:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #2098d1;
-  transform: scale(0);
-  transition-property: transform;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-}
-.portfolio:hover, .portfolio:focus, .portfolio:active {
-  color: white;
-}
-.portfolio:hover:before, .portfolio:focus:before, .portfolio:active:before {
-  -webkit-transform: scale(1);
-  transform: scale(1);
+.portfolio:hover{
+    background-color: #222222;
 }
 
 /** Background for content **/
